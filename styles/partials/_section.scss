@@ -1,0 +1,26 @@
+////
+/// Estructure_styles_(classes).
+/// @group Partials
+/// @author Juan Fco Aguilar
+////
+/// 
+/// 
+@use "vars" as v;
+@use "mixins" as mixins;
+
+///@access public
+$bg-img-top: url('../assets/Background1.png');
+///@access public
+$bg-img-bottom: url('../assets/Background.png');
+
+
+///@access public
+.background-top {
+    @include section-bg($bg-img-top, -200px);
+}
+
+///@access public
+.background-bottom {
+    @include section-bg($bg-img-bottom, 200px);
+}
+

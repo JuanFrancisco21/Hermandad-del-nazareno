@@ -1,0 +1,13 @@
+////
+/// Functions.
+/// @group Partials
+/// @author Juan Fco Aguilar
+////
+@use 'vars' as v;
+
+/// Function which return the select color for a title text.
+/// @param {type} $number -Number of the title color
+/// @return {type} -Selected color for a title.
+@function colorSectionTitle($number){
+    @return  nth(v.$section-title-color , $number )
+}

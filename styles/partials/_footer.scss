@@ -1,0 +1,63 @@
+@use "palette";
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+footer {
+    background-color: $primary-grey;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 30px;
+    margin-top: auto;
+
+    li {
+        list-style: none;
+        margin: 10px;
+        display: inline-block;
+    }
+}
+
+.icons {
+    margin: 0;
+    li a {
+        background: $primary;
+        color: $primary-grey;
+        padding: 14px;
+        font-size: 20px;
+        border-radius: 100%;
+        display: flex;
+
+        &:hover {
+            color: white;
+            transition: 0.5s;
+        }
+    }
+}
+
+.menu {
+    li a {
+        color: white;
+        text-transform: capitalize;
+
+        &:hover {
+            color: $primary;
+            transition: 0.5s;
+        }
+    }
+}
+
+.footer-copyright {
+    background-color: $primary;
+    color: white;
+    padding: 15px;
+    margin-top: 30px;
+    text-transform: capitalize;
+
+    p {
+        margin-bottom: 0px;
+    }
+}

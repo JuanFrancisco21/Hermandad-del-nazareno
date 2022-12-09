@@ -1,0 +1,39 @@
+////
+/// Variables.
+/// @group Partials
+/// @author Juan Fco Aguilar
+////
+
+///@access public
+///@name section-title-colors
+$section-title-color: red, #00e400, #a5572a, #c901c9;
+///@access public
+$text-family:'Lato', sans-serif;
+///@access public
+$font-sizes: ("title":30px, "subtitle":20px);
+
+// /// Root css atributes for all the html files which import the .css compiled file.
+// ///@access public
+// :root {
+//     a {
+//         color: blue;
+//     }
+// }
+
+// /// Css Light which user can select with a button, this is the default theme used.
+// ///@name Light-Theme
+// ///@access public
+// html[data-theme="light"] {
+//     --background-color: #dddddd;
+//     --text-color: #222222;
+//     --border-color: #000;
+// }
+
+// /// Css Dark which user can select with a button, for programmers.
+// ///@name Dark-Theme
+// ///@access public
+// html[data-theme="dark"] {
+//     --background-color: #222222;
+//     --text-color: #dddddd;
+//     --border-color: #000;
+// }

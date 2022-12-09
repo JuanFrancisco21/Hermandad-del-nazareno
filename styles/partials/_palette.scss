@@ -1,0 +1,42 @@
+
+////
+/// Paleta de colores.
+/// @group Partials
+/// @author Juan Fco Aguilar
+////
+
+/* Coolors Exported Palette - https://coolors.co/564787-dbcbd8-f2fdff-9ad4d6-101935 */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@300&display=swap");
+
+/* SCSS RGB */
+///@access public
+$primary: rgba(86, 71, 135, 1);
+///@access public
+$secondary: rgba(219, 203, 216, 1);
+///@access public
+$primary-grey: rgba(39, 39, 39, 1);
+///@access public
+$info: rgba(154, 212, 214, 1);
+///@access public
+$dark: rgba(16, 25, 53, 1);
+
+/* SCSS Gradient */
+///@access public
+$gradient-top: linear-gradient(0deg, #564787ff, #dbcbd8ff, #f2fdffff, #9ad4d6ff, #101935ff);
+///@access public
+$gradient-right: linear-gradient(90deg, #564787ff, #dbcbd8ff, #f2fdffff, #9ad4d6ff, #101935ff);
+///@access public
+$gradient-bottom: linear-gradient(180deg, #564787ff, #dbcbd8ff, #f2fdffff, #9ad4d6ff, #101935ff);
+///@access public
+$gradient-left: linear-gradient(270deg, #564787ff, #dbcbd8ff, #f2fdffff, #9ad4d6ff, #101935ff);
+///@access public
+$gradient-top-right: linear-gradient(45deg, #564787ff, #dbcbd8ff, #f2fdffff, #9ad4d6ff, #101935ff);
+///@access public
+$gradient-bottom-right: linear-gradient(135deg, #564787ff, #dbcbd8ff, #f2fdffff, #9ad4d6ff, #101935ff);
+///@access public
+$gradient-top-left: linear-gradient(225deg, #564787ff, #dbcbd8ff, #f2fdffff, #9ad4d6ff, #101935ff);
+///@access public
+$gradient-bottom-left: linear-gradient(315deg, #564787ff, #dbcbd8ff, #f2fdffff, #9ad4d6ff, #101935ff);
+///@access public
+$gradient-radial: radial-gradient(#564787ff, #dbcbd8ff, #f2fdffff, #9ad4d6ff, #101935ff);
+

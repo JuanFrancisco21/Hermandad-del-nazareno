@@ -1,0 +1,17 @@
+////
+/// Mixins partial.
+/// @group Partials
+/// @author Juan Fco Aguilar
+////
+
+
+/// Mixin to show a degrade transition between sections.
+/// @param {png} $img -Image to show a degrade transition between diferent sections
+/// @output -css to show only one background-image.
+@mixin section-bg($img,$pos-y){
+    background: $img;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    background-position-y: $pos-y;
+}
