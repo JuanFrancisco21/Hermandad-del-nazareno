@@ -1,4 +1,4 @@
-@use "vars" as var;
+@use "palette" as var;
 
 .wave{
     position: fixed;
@@ -8,13 +8,12 @@
     z-index: -1;
 }
 
-.container{
+.container-paralel{
     width: 100vw;
-    height: 100vh;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 7rem;
-    padding: 0 2rem;
+    padding: 5rem 2rem 15rem 0;
 }
 
 .img{

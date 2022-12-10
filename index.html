@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Nazarenos</title>
+  <link rel="stylesheet" href="./styles/styles.css">
+  <link rel="icon" href="./assets/Icon.png">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script  src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+</head>
+<body>
+    <header>
+        <nav class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom" id="Inicio">
+            <a href="/" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none">
+              <img src="./assets/Logo.png" alt="Fotografia del Logotipo Web" height="50px">
+            </a>
+      
+            <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+              <li><a href="#Inicio" class="nav-link px-2 link-dark">Inicio</a></li>
+              <li><a href="Cofradia.html" class="nav-link px-2 link-dark">Cofradia</a></li>
+              <li><a href="Afiliados.html" class="nav-link px-2 link-dark">Afiliados</a></li>
+              <li><a href="Login.html" class="nav-link px-2 link-dark">Blog</a></li>
+              <li><a href="#footer" class="nav-link px-2 link-dark">Contacto</a></li>
+            </ul>
+      
+            <div class="col-md-3 text-end">
+              <a type="button" href="Login.html" class="btn btn-outline-primary me-2">Inicio Sesión</a>
+              <a type="button" href="Sign-up.html" class="btn btn-primary">Registro</a>
+            </div>
+        </nav>
+    </header>
+
+    <section  id="carousel">
+      <div id="hero-carousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+    
+        <div class="carousel-inner">
+          <div class="carousel-item active c-item">
+            <img src="./assets/Banner1.png" class="d-block w-100 c-img" alt="Slide 1">
+            <div class="carousel-caption top-0 mt-4 text-start">
+              <p class="mt-5 fs-3 text-uppercase">Descubre nuestro cultura</p>
+              <h1 class="display-1 fw-bolder text-capitalize">El Martes Santo</h1>
+              <button class="btn btn-primary px-4 py-2 fs-5 mt-5">+ Blog</button>
+            </div>
+          </div>
+          <div class="carousel-item c-item">
+            <img src="./assets/Banner2.png" class="d-block w-100 c-img" alt="Slide 2">
+            <div class="carousel-caption top-0 mt-4">
+              <p class="text-uppercase fs-3 mt-5">Nuestros Afiliados</p>
+              <p class="display-1 fw-bolder text-capitalize">3 planes disponibles</p>
+              <button class="btn btn-primary px-4 py-2 fs-5 mt-5" data-bs-toggle="modal"
+                data-bs-target="#booking-modal">Unirse</button>
+            </div>
+          </div>
+          <div class="carousel-item c-item">
+            <img src="./assets/Banner3.png" class="d-block w-100 c-img" alt="Slide 3">
+            <div class="carousel-caption top-0 mt-4 text-end">
+              <p class="text-uppercase fs-3 mt-5">Calle los Espejos</p>
+              <p class="display-1 fw-bolder text-capitalize">Ntro señor jesus</p>
+              <button class="btn btn-primary px-4 py-2 fs-5 mt-5" data-bs-toggle="modal"
+                data-bs-target="#booking-modal">+ Más</button>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#hero-carousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#hero-carousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
+    <section id="cards-carousel" class="background-top">
+
+      <p class="display-1 fw-bolder text-capitalize">1</p>
+      <p class="display-1 fw-bolder text-capitalize">2</p>
+      <p class="display-1 fw-bolder text-capitalize">3</p>
+      <p class="display-1 fw-bolder text-capitalize">4</p>
+      <p class="display-1 fw-bolder text-capitalize">5</p>
+      <p class="display-1 fw-bolder text-capitalize">6</p>
+    </section>
+
+    <section id="cards-carousel" class="background-bottom">      
+      <p class="display-1 fw-bolder text-capitalize">1</p>
+      <p class="display-1 fw-bolder text-capitalize">2</p>
+      <p class="display-1 fw-bolder text-capitalize">3</p>
+      <p class="display-1 fw-bolder text-capitalize">4</p>
+      <p class="display-1 fw-bolder text-capitalize">5</p>
+      <p class="display-1 fw-bolder text-capitalize">6</p>
+
+    </section>
+   
+
+    <footer id="footer">
+        <ul class="icons">
+            <li><a href="https://www.linkedin.com/in/juan-fco-aguilar-sanchez/"><ion-icon name="logo-whatsapp"></ion-icon></a></li>
+            <li><a href="https://www.linkedin.com/in/juan-fco-aguilar-sanchez/"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+            <li><a href="https://www.facebook.com/HdadNazarenoFN"><ion-icon name="logo-facebook"></ion-icon></a></li>
+            <li><a href="https://www.instagram.com/hdadnazarenofn/?theme=dark"><ion-icon name="logo-instagram"></ion-icon></a></li>
+        </ul>
+        <ul class="menu">
+                <li><a href="#Inicio">Inicio</a></li>
+                <li><a href="Cofradia.html">Cofradia</a></li>
+                <li><a href="Afiliados.html">Afiliados</a></li>
+                <li><a href="Blog.html">Blog</a></li>
+                <li><a href="#footer">Contacto</a></li>
+        </ul>
+            <div class="footer-copyright">
+                <p>Copyright @ 2022 All Rights Reserved.</p>
+            </div>
+    </footer>
+</body>
+<!-- partial -->
+  <script  src="./js/script.js"></script>
+
+</body>
+</html>

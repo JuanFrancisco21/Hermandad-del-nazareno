@@ -5,7 +5,6 @@
 ////
 /// 
 /// 
-@use "vars" as v;
 @use "mixins" as mixins;
 
 ///@access public
@@ -16,11 +15,10 @@ $bg-img-bottom: url('../assets/Background.png');
 
 ///@access public
 .background-top {
-    @include section-bg($bg-img-top, -200px);
+    @include section-bg($bg-img-top, -400px);
 }
 
 ///@access public
 .background-bottom {
-    @include section-bg($bg-img-bottom, 200px);
+    @include section-bg($bg-img-bottom, 2px);
 }
-
