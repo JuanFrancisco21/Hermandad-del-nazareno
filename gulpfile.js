@@ -15,7 +15,7 @@ function compile_sass() {
 //Fucion para compilar y generar los archivos de sassdoc en 
 //directorio expecifico para documentación.
 function compiles_sass_doc(cb) {
-    exec('sassdoc ./assets/bootstrap/scss/partials  -d ./documentacion/sassdoc/', function (err, stdout, stderr) {
+    exec('sassdoc ./assets/scss/partials  -d ./documentacion/sassdoc/', function (err, stdout, stderr) {
         console.log(stdout);
         console.log(stderr);
         cb(err);

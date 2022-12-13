@@ -66,7 +66,7 @@ Una vez que completamos el diseño del prototipo, utilizamos Adobe XD para gener
 Esta disponia de varias pantallas entre las cuales se encuentran las siguientes:
 
 - # Página Inicio
-<img src="./assets/pinicio.png" alt="drawing" style="width:400px;"/>
+<img src="https://github.com/JuanFrancisco21/HTML5-Hermandad-del-nazareno/blob/main/assets/Images/pinicio.png" alt="drawing" style="width:400px;"/>
 
 <br>
 
