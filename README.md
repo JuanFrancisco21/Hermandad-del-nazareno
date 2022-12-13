@@ -29,9 +29,9 @@
 
 <!----------------------------- CONCEPCIÓN -------------------------------->
 <div style="display: flex; flex-direction: row;">
-  <img src="./assets/adorno-in.svg" width="40" />
+  <img src="./assets/Images/adorno-in.svg" width="40" />
   <h1 style="margin-top: 25px">   CONCEPCIÓN     </h1>
-  <img src="./assets/adorno.svg" width="40" />
+  <img src="./assets/Images/adorno.svg" width="40" />
 </div> 
 <a name="id1"></a>
 
@@ -51,9 +51,9 @@ Finalizando la web con tecnologias como principales tecnologias HTML5, SCSS Y BO
 
 <!----------------------------- DISEÑO Y PROTOTIPO -------------------------------->
 <div style="display: flex; flex-direction: row;">
-  <img src="./assets/adorno-in.svg" width="40" />
+  <img src="./assets/Images/adorno-in.svg" width="40" />
   <h1 style="margin-top: 25px">   DISEÑO Y PROTOTIPO     </h1>
-  <img src="./assets/adorno.svg" width="40" />
+  <img src="./assets/Images/adorno.svg" width="40" />
 </div> 
 <a name="id2"></a>
 
@@ -93,9 +93,9 @@ Esta disponia de varias pantallas entre las cuales se encuentran las siguientes:
 <!----------------------------- PALETA DE COLORES -------------------------------->
 
 <div style="display: flex; flex-direction: row;">
-  <img src="./assets/adorno-in.svg" width="40" />
+  <img src="./assets/Images/adorno-in.svg" width="40" />
   <h1 style="margin-top: 25px">   PALETA DE COLORES     </h1>
-  <img src="./assets/adorno.svg" width="40" />
+  <img src="./assets/Images/adorno.svg" width="40" />
 </div> 
 <a name="id3"></a>
 
@@ -118,9 +118,9 @@ Una ventaja de coolors.co es la exportación de la paleta la cual te puedes desc
 
  <!----------------------------- FUTURAS MEJORAS -------------------------------->
 <div style="display: flex; flex-direction: row;">
-  <img src="./assets/adorno-in.svg" width="40" />
+  <img src="./assets/Images/adorno-in.svg" width="40" />
   <h1 style="margin-top: 25px">   FUTURAS MEJORAS    </h1>
-  <img src="./assets/adorno.svg" width="40" />
+  <img src="./assets/Images/adorno.svg" width="40" />
 </div> 
 <a name="id4" ></a>
 
@@ -140,9 +140,9 @@ Como es normal en una web siempre se puede mejorar o adaptar al estilo o gusto d
 
 <!----------------------------- ACCESIBILIDAD -------------------------------->
 <div style="display: flex; flex-direction: row;">
-  <img src="./assets/adorno-in.svg" width="40" />
+  <img src="./assets/Images/adorno-in.svg" width="40" />
   <h1 style="margin-top: 25px">   ACCESIBILIDAD    </h1>
-  <img src="./assets/adorno.svg" width="40" />
+  <img src="./assets/Images/adorno.svg" width="40" />
 </div> 
 <a name="id5" ></a>
 
@@ -170,9 +170,9 @@ Como es normal en una web siempre se puede mejorar o adaptar al estilo o gusto d
 <!----------------------------- USABILIDAD -------------------------------->
 
 <div style="display: flex; flex-direction: row;">
-  <img src="./assets/adorno-in.svg" width="40" />
+  <img src="./assets/Images/adorno-in.svg" width="40" />
   <h1 style="margin-top: 25px">   USABILIDAD     </h1>
-  <img src="./assets/adorno.svg" width="40" />
+  <img src="./assets/Images/adorno.svg" width="40" />
 </div> 
 <a name="id6" ></a>
 
@@ -193,9 +193,9 @@ Como es normal en una web siempre se puede mejorar o adaptar al estilo o gusto d
 
 <!----------------------------- LICENCIA -------------------------------->
 <div style="display: flex; flex-direction: row;">
-  <img src="./assets/adorno-in.svg" width="40" />
+  <img src="./assets/Images/adorno-in.svg" width="40" />
   <h1 style="margin-top: 25px">   LICENCIA    </h1>
-  <img src="./assets/adorno.svg" width="40" />
+  <img src="./assets/Images/adorno.svg" width="40" />
 </div> 
 <a name="id7" ></a>
 
@@ -222,9 +222,9 @@ Como es normal en una web siempre se puede mejorar o adaptar al estilo o gusto d
 <!----------------------------- AUTOR -------------------------------->
 
 <div style="display: flex; flex-direction: row;">
-  <img src="./assets/adorno-in.svg" width="40" />
+  <img src="./assets/Images/adorno-in.svg" width="40" />
   <h1 style="margin-top: 25px">   AUTOR     </h1>
-  <img src="./assets/adorno.svg" width="40" />
+  <img src="./assets/Images/adorno.svg" width="40" />
 </div> 
 <a name="id8" ></a>
 

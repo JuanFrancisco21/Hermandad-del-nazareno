@@ -12,26 +12,34 @@
 @import "../../node_modules/bootstrap/scss/bootstrap";
 
 ////
-/// This is the main file scss for Nazarenos Web.
-/// It will contain all partials files used with scss.
 /// @group Main
+/// This is the main file scss for Nazarenos Web.
+/// It will contain all partials files used with scss files.
 /// @author Juan Fco Aguilar
 ////
 
+/// By default no margin and paddings
+/// @group Main
 *{
     margin: 0;
     padding: 0;
 }
 
+/// Cover all web space
+/// @group Main
 html{
     height: 100%;
     width: 100%;
 }
 
+/// Padding for headers
+/// @group Main
 header{
     padding: 10px 30px;
 }
 
+/// Font family and configuration for all body
+/// @group Main
 body{
     font-family: 'Open Sans', sans-serif;
     display: flex;
@@ -39,10 +47,14 @@ body{
     min-height: 100%;
 }
 
+/// Links without decoration
+/// @group Main
 a{
     text-decoration: none;
 }
 
+/// Eliminar la barra de scroll
+/// @group Main
 ::-webkit-scrollbar {
     display: none;
 }

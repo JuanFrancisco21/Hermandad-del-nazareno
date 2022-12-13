@@ -61,12 +61,6 @@
 /* Coolors Exported Palette - https://coolors.co/564787-dbcbd8-f2fdff-9ad4d6-101935 */
 /* SCSS RGB */
 /* SCSS Gradient */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: inherit;
-}
-
 footer {
   background-color: rgb(39, 39, 39);
   text-align: center;
@@ -292,6 +286,8 @@ a:hover {
   background-position: right;
 }
 
+/* RESPONSIVE CSS
+-------------------------------------------------- */
 @media screen and (max-width: 1050px) {
   .container {
     grid-gap: 5rem;
