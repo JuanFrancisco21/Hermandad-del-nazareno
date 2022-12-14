@@ -48,7 +48,7 @@ var gulpSSH = new GulpSSH({
  */
 function download_git_data() {
     return gulpSSH
-    .exec(['cd environment/Containers/wishlist/HTML5-Hermandad-del-nazareno', 'git pull']);
+    .exec(['cd environment/Containers/wishlist/HTML5-Hermandad-del-nazareno/', 'git pull']);
 }
 
 /**
