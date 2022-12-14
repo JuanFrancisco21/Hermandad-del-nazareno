@@ -1,16 +1,10 @@
-<style>
-td {
-  font-size: 50px
-}
-</style>
-
 # Diseño De Interfaces Web
 
 ## Hermandad del Nazareno
 
 <br><br>
 
-<img src="https://i0.wp.com/www.nosinmiubuntu.com/wp-content/uploads/2018/01/html5_css3_javascript5.png?fit=450%2C365&ssl=1" style="width:500px;"/>
+<img src="./assets/Images/Escarmiento-v1.svg" style="width:700px;"/>
    
 <br><br>
 
@@ -161,9 +155,14 @@ Siguiendo estos pasos anteriores, puede asegurarse de que la página web cumple 
 
 ## PRUEBA WAVE:
 
-- `Atribución` - Debe dar el crédito apropiado, proporcionar un enlace a la licencia e indicar si se hicieron cambios. Puede hacerlo de cualquier forma razonable, pero no de ninguna manera que sugiera que el licenciante lo respalda a usted o a su uso.
+Tras las pruebas realizadas con WAVE solo se han encontrado diversas alertas y ningun tipo de error. Esta alertas que se pueden encontrar son las siguientes:
 
-- `No comercial` - No puede utilizar el material con fines comerciales.
+- `Texto alternativo repetido` - Los adornos utilizados en los titulos de las secciones de las diferentes página que componen al proyecto. Una solucion que se daria seria cambiar el texto alternativo a la imagen diferenciando entre la inicial y la final.
+
+- `Link redundante` - En el footer los botones de la aplicación whatsapp y Linkedin son el mismo, esto se debe a no querer publicar numeros de telefono privados. Esto se solucionaria cambiando el link a otra dirección.
+
+- `Saltarse la estructuración de encabezados` - Los títulos estructuran el documento y facilitan la navegación con el teclado a los usuarios de tecnologías de apoyo. Estos usuarios pueden sentirse confusos o tener dificultades de navegación cuando se saltan los niveles de los encabezados.
+Cómo solucionarlo. Reestructura los títulos del documento para evitar que se salten de nivel.
 
 <br>
 
@@ -202,9 +201,15 @@ Hay varios principios de usabilidad que suelen utilizarse en la creación de un 
 
 ## TEST Y HEATMAP:
 
-- `Atribución` - Debe dar el crédito apropiado, proporcionar un enlace a la licencia e indicar si se hicieron cambios. Puede hacerlo de cualquier forma razonable, pero no de ninguna manera que sugiera que el licenciante lo respalda a usted o a su uso.
+Los mapas de calor se utilizan a menudo en los sitios web para visualizar el comportamiento de los usuarios e identificar las áreas de un sitio web que atraen la mayor atención. Esta información puede ser útil para los diseñadores y vendedores de sitios web, ya que puede ayudarles a entender qué contenido de un sitio web es más interesante para los usuarios, y qué áreas del sitio web pueden necesitar ser rediseñadas o mejoradas.
 
-- `No comercial` - No puede utilizar el material con fines comerciales.
+Los mapas de calor suelen crearse siguiendo los movimientos del cursor, los clics y el comportamiento de desplazamiento de los usuarios en un sitio web, y utilizando estos datos para crear una representación visual de los lugares en los que los usuarios pasan más tiempo. El mapa de calor resultante suele mostrar las zonas de un sitio web que reciben más atención, así como las zonas que se ignoran o infrautilizan.
+
+Con un mapa de calor, los diseñadores y vendedores de sitios web pueden identificar patrones en el comportamiento de los usuarios que pueden no ser evidentes a primera vista, y utilizar esta información para mejorar el diseño general y la experiencia de usuario de un sitio web. Por ejemplo, un mapa de calor puede mostrar que un botón o enlace concreto de un sitio web se pulsa con más frecuencia que otros, lo que indica que es un elemento importante del sitio web que debería destacarse o enfatizarse. Por otra parte, un mapa de calor puede revelar que los usuarios ignoran determinadas zonas de un sitio web, lo que indica que es necesario rediseñarlas o eliminarlas.
+
+En resumen, los mapas de calor son herramientas útiles para comprender el comportamiento de los usuarios en los sitios web, y pueden utilizarse para mejorar el diseño y la experiencia de usuario de un sitio web. Por ello se han realizados dichos test a 5 individuos diferentes:
+
+### Individuo 1 (30 Años)
 
 <br>
 

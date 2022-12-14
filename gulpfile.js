@@ -66,8 +66,4 @@ exports.sassdoc = compiles_sass_doc;
 exports.update_container=download_git_data;
 exports.start_container=start_container;
 
-
-/*exports.uploadToAws = series(ssh_upload_files, move_files);
-exports.eraseAll = parallel(remove_folders_files, remove_hidde_files);
-exports.beAProduct = series(compile_sass, compiles_sass_doc, copy_html, copy_js);
-exports.toDo = series(this.eraseAll, clone_repository, this.beAProduct, this.uploadToAws);*/
+exports.toDo = series(start_container, download_git_data, download_git_data);
