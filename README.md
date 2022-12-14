@@ -4,7 +4,7 @@
 
 <br><br>
 
-<img src="https://i0.wp.com/www.nosinmiubuntu.com/wp-content/uploads/2018/01/html5_css3_javascript5.png?fit=450%2C365&ssl=1" alt="drawing" style="width:500px;"/>
+<img src="https://i0.wp.com/www.nosinmiubuntu.com/wp-content/uploads/2018/01/html5_css3_javascript5.png?fit=450%2C365&ssl=1" style="width:500px;"/>
    
 <br><br>
 
@@ -66,27 +66,32 @@ Una vez que completamos el diseño del prototipo, utilizamos Adobe XD para gener
 Esta disponia de varias pantallas entre las cuales se encuentran las siguientes:
 
 - # Página Inicio
-<img src="https://github.com/JuanFrancisco21/HTML5-Hermandad-del-nazareno/blob/main/assets/Images/pinicio.png" alt="drawing" style="width:400px;"/>
+<img src="https://github.com/JuanFrancisco21/HTML5-Hermandad-del-nazareno/blob/main/assets/Images/pinicio.png" style="width:400px;"/>
+<img src="./assets/Images/pinicio.png" style="width:400px;"/>
 
 <br>
 
 - # Página Cofradia
-<img src="./assets/pcofradia.png" alt="drawing" style="width:400px;"/>
+<img src="https://github.com/JuanFrancisco21/HTML5-Hermandad-del-nazareno/blob/main/assets/Images/pcofradia.png" style="width:400px;"/>
+<img src="./assets/Images/pcogradia.png" style="width:400px;"/>
 
 <br>
 
 - # Página Afiliados
-<img src="./assets/pafiliados.png" alt="drawing" style="width:400px;"/>
+<img src="https://github.com/JuanFrancisco21/HTML5-Hermandad-del-nazareno/blob/main/assets/Images/pafiliados.png" style="width:400px;"/>
+<img src="./assets/Images/pafiliados.png" style="width:400px;"/>
 
 <br>
 
 - # Página Blog
-<img src="./assets/pblog.png" alt="drawing" style="width:400px;"/>
+<img src="https://github.com/JuanFrancisco21/HTML5-Hermandad-del-nazareno/blob/main/assets/Images/pblog.png" style="width:400px;"/>
+<img src="./assets/Images/pblog.png" style="width:400px;"/>
 
 <br>
 
 - # Página Inicio Sesion / Registro
-<img src="./assets/plogin.png" alt="drawing" style="width:400px;"/>
+<img src="https://github.com/JuanFrancisco21/HTML5-Hermandad-del-nazareno/blob/main/assets/Images/plogin.png" style="width:400px;"/>
+<img src="./assets/Images/plogin.png" style="width:400px;"/>
 
 <br>
 
@@ -105,7 +110,8 @@ Después de experimentar con diferentes combinaciones, decidimos que la mejor op
 
 <br>
 
-<img src="./assets/Paleta.png" alt="drawing" style="width:1000px;"/>
+<img src="https://github.com/JuanFrancisco21/HTML5-Hermandad-del-nazareno/blob/main/assets/Images/Paleta.png" style="width:1000px;"/>
+<img src="./assets/Images/Paleta.png" style="width:1000px;"/>
 
 <br>
 

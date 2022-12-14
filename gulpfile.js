@@ -25,7 +25,7 @@ function compiles_sass_doc(cb) {
 
 //Funciones para subir archivos via ssh a AWS 
 var config = {
-  host: "worjagusan.duckdns.org",
+  host: "wordjagusan.duckdns.org",
   port: "22",
   username: "ec2-user",
   privateKey: fs.readFileSync('C:\\Users\\HP.LAPTOP-0EU979JV\\Downloads\\aws.pem')
@@ -36,21 +36,21 @@ var gulpSSH = new GulpSSH({
   sshConfig: config
 })
 
-function ssh_upload_files() {
-    return src(['./produccion/*.html', './produccion/styles/**', './produccion/js/**'])
-    .pipe(gulpSSH.dest('/home/ec2-user'));
+function download_git_data() {
+    return gulpSSH
+    .exec(['cd Containers/wishlist/HTML5-Hermandad-del-nazareno', 'git pull']);
 }
 
-function move_files(){
+function start_container(){
     return gulpSSH
-    .exec(['sudo mv index.html /var/www/web2', 'sudo mv styles.css /var/www/web2/styles', 'sudo mv script.js /var/www/web2/js']);
+    .exec(['docker start hermandad']);
 }
 
 
 exports.sass=compile_sass;
 exports.sassdoc = compiles_sass_doc;
-exports.ssh=ssh_upload_files;
-exports.move=move_files;
+exports.update_container=download_git_data;
+exports.start_container=start_container;
 
 
 /*exports.uploadToAws = series(ssh_upload_files, move_files);
