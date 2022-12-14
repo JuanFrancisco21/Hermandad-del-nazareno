@@ -35,10 +35,9 @@ td {
 
 <!----------------------------- CONCEPCIÓN -------------------------------->
 
-<img src="./assets/Images/adorno-in.svg" width="40" />  | 
-<span style="font-size: 30px;">   CONCEPCIÓN     </span> | 
-<img src="./assets/Images/adorno.svg" width="40" />
 <a name="id1"></a>
+
+# CONCEPCIÓN
 
 Todo este proyecto comienza como una actividad para el grado superior DAW. Donde partimos del problema proporcionado por el profesor de crear una Página web basada en el color morado. Con la cual el mismo hizo una sugerencia de hacerla basada en una cofradia. Una vez que teníamos el problema planteado, comenzamos a trabajar en la solución.
 
@@ -55,12 +54,10 @@ Finalizando la web con tecnologias como principales tecnologias HTML5, SCSS Y BO
 <br>
 
 <!----------------------------- DISEÑO Y PROTOTIPO -------------------------------->
-<div style="display: flex; flex-direction: row;">
-  <img src="./assets/Images/adorno-in.svg" width="40" />
-  <h1 style="margin-top: 25px">   DISEÑO Y PROTOTIPO     </h1>
-  <img src="./assets/Images/adorno.svg" width="40" />
-</div> 
 <a name="id2"></a>
+
+# DISEÑO Y PROTOTIPO 
+
 
 Una vez que decidimos que queríamos desarrollar un prototipo de la página web sobre la cofradía, necesitábamos una herramienta que nos permitiera diseñar y presentar el prototipo de manera efectiva. Después de investigar diferentes herramientas de diseño, decidimos utilizar Adobe XD, una aplicación de diseño de interfaz de usuario y experiencia de usuario (UX) de Adobe.
 
@@ -76,7 +73,7 @@ Esta disponia de varias pantallas entre las cuales se encuentran las siguientes:
 <br>
 
 - # Página Cofradia
-<img src="./assets/Images/pcogradia.png" style="width:400px;"/>
+<img src="./assets/Images/pcofradia.png" style="width:400px;"/>
 
 <br>
 
@@ -97,12 +94,9 @@ Esta disponia de varias pantallas entre las cuales se encuentran las siguientes:
 
 <!----------------------------- PALETA DE COLORES -------------------------------->
 
-<div style="display: flex; flex-direction: row;">
-  <img src="./assets/Images/adorno-in.svg" width="40" />
-  <h1 style="margin-top: 25px">   PALETA DE COLORES     </h1>
-  <img src="./assets/Images/adorno.svg" width="40" />
-</div> 
 <a name="id3"></a>
+
+# PALETA DE COLORES
 
 Como partimos del color morado para la web de una cofradía. Utilizamos coolors.co para generar una paleta de colores que complemente al color morado.
 
@@ -122,12 +116,9 @@ Una ventaja de coolors.co es la exportación de la paleta la cual te puedes desc
 
 
  <!----------------------------- FUTURAS MEJORAS -------------------------------->
-<div style="display: flex; flex-direction: row;">
-  <img src="./assets/Images/adorno-in.svg" width="40" />
-  <h1 style="margin-top: 25px">   FUTURAS MEJORAS    </h1>
-  <img src="./assets/Images/adorno.svg" width="40" />
-</div> 
 <a name="id4" ></a>
+
+# FUTURAS MEJORAS
 
 Como es normal en una web siempre se puede mejorar o adaptar al estilo o gusto del dueño, por lo cual en este apartado se destacaran las futuras mejoras a implentar.
 
@@ -144,18 +135,27 @@ Como es normal en una web siempre se puede mejorar o adaptar al estilo o gusto d
 <br>
 
 <!----------------------------- ACCESIBILIDAD -------------------------------->
-<div style="display: flex; flex-direction: row;">
-  <img src="./assets/Images/adorno-in.svg" width="40" />
-  <h1 style="margin-top: 25px">   ACCESIBILIDAD    </h1>
-  <img src="./assets/Images/adorno.svg" width="40" />
-</div> 
 <a name="id5" ></a>
+
+# ACCESIBILIDAD
 
 ## ESTANDARES WCAG:
 
-- Compartir - copiar y redistribuir el material en cualquier medio o formato
-- Adaptar - remezclar, transformar y construir sobre el material
-- El licenciante no puede revocar estas libertades siempre que se respeten los términos de la licencia.
+Para la página web cumpla las Pautas de Accesibilidad al Contenido en la Web (WCAG), debe seguir estos pasos:
+
+Asegurarse de que es perceptible, operable, comprensible y robustez. Esto significa garantizar que los usuarios puedan acceder a su sitio web y utilizarlo, independientemente de sus capacidades o discapacidades.
+
+Asegurarse de que todo el texto de su sitio web pueda ser leído fácilmente por un lector de pantalla. Esto incluye utilizar un lenguaje claro y conciso, títulos y etiquetas adecuados y texto alternativo para las imágenes.
+
+Ofrecer a los usuarios múltiples formas de navegar por su sitio web, como atajos de teclado y enlaces claros y descriptivos.
+
+Cerciorarse de que todos los elementos de los formularios de su sitio web estén correctamente etiquetados y sean fáciles de usar. Esto incluye proporcionar instrucciones claras para rellenar los formularios y asegurarse de que todos los campos de los formularios están correctamente alineados y espaciados.
+
+Como que cualquier contenido que se actualice o modifique en su sitio web se haga de forma accesible para los usuarios. Esto incluye proporcionar descripciones claras y concisas de cualquier cambio o actualización, y asegurarse de que los usuarios puedan acceder y utilizar fácilmente cualquier contenido nuevo.
+
+En general, la clave para cumplir las normas WCAG en su sitio web es asegurarse de que sea accesible y utilizable para todos los usuarios, independientemente de sus capacidades o discapacidades. 
+
+Siguiendo estos pasos anteriores, puede asegurarse de que la página web cumple estas normas y proporciona una experiencia agradable y accesible a todos los usuarios.
 
 <br>
 
@@ -165,6 +165,8 @@ Como es normal en una web siempre se puede mejorar o adaptar al estilo o gusto d
 
 - `No comercial` - No puede utilizar el material con fines comerciales.
 
+<br>
+
 ## PROBLEMAS ENCONTRADOS:
 A la hora de crear un sitio web pueden surgir varios problemas:
 
@@ -172,18 +174,15 @@ A la hora de crear un sitio web pueden surgir varios problemas:
 - Garantizar que el sitio web sea compatible con dispositivos móviles y responda a las necesidades de los usuarios.
 - Adaptarse al prototipo para realizar un producto los más parecido y que no se desvarie del principal objetivo.
 - Crear contenidos atractivos y útiles para el sitio web.
+- Captar la esencia de una Cofradia con el color morado.
 
 
 <br>
 
 <!----------------------------- USABILIDAD -------------------------------->
-
-<div style="display: flex; flex-direction: row;">
-  <img src="./assets/Images/adorno-in.svg" width="40" />
-  <h1 style="margin-top: 25px">   USABILIDAD     </h1>
-  <img src="./assets/Images/adorno.svg" width="40" />
-</div> 
 <a name="id6" ></a>
+
+# USABILIDAD
 
 ## PRINCIPIOS PERSEGUIDOS:
 
@@ -207,14 +206,13 @@ Hay varios principios de usabilidad que suelen utilizarse en la creación de un 
 
 - `No comercial` - No puede utilizar el material con fines comerciales.
 
+<br>
+
 
 <!----------------------------- LICENCIA -------------------------------->
-<div style="display: flex; flex-direction: row;">
-  <img src="./assets/Images/adorno-in.svg" width="40" />
-  <h1 style="margin-top: 25px">   LICENCIA    </h1>
-  <img src="./assets/Images/adorno.svg" width="40" />
-</div> 
 <a name="id7" ></a>
+
+# LICENCIA
 
 ## Usted es libre de:
 
@@ -237,13 +235,9 @@ Hay varios principios de usabilidad que suelen utilizarse en la creación de un 
 <br>
 
 <!----------------------------- AUTOR -------------------------------->
-
-<div style="display: flex; flex-direction: row;">
-  <img src="./assets/Images/adorno-in.svg" width="40" />
-  <h1 style="margin-top: 25px">   AUTOR     </h1>
-  <img src="./assets/Images/adorno.svg" width="40" />
-</div> 
 <a name="id8" ></a>
+
+# AUTOR
 
 [Juan Francisco Aguilar Sanchez](https://github.com/JuanFrancisco21)
 

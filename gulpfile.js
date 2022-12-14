@@ -23,7 +23,10 @@ function compiles_sass_doc(cb) {
 }
 
 
-//Funciones para subir archivos via ssh a AWS 
+
+/**
+ * Variable de configuracion con los datos para la conexión ssh.
+ */
 var config = {
   host: "wordjagusan.duckdns.org",
   port: "22",
@@ -31,16 +34,27 @@ var config = {
   privateKey: fs.readFileSync('C:\\Users\\HP.LAPTOP-0EU979JV\\Downloads\\aws.pem')
 }
  
+/**
+ * Configuracion y creación de conexiones mediante ssh.
+ */
 var gulpSSH = new GulpSSH({
   ignoreErrors: false,
   sshConfig: config
 })
 
+/**
+ * Mover puntero a la carpesa asociada al repositorio y hacer un pull.
+ * @returns Devuelve por consola una respuesta de tarea completada o un error.
+ */
 function download_git_data() {
     return gulpSSH
     .exec(['cd Containers/wishlist/HTML5-Hermandad-del-nazareno', 'git pull']);
 }
 
+/**
+ * Inicia el contenedor que muestra la página web de la hermandad.
+ * @returns Devuelve por consola una respuesta de tarea completada o un error.
+ */
 function start_container(){
     return gulpSSH
     .exec(['docker start hermandad']);
