@@ -1,3 +1,9 @@
+<style>
+td {
+  font-size: 50px
+}
+</style>
+
 # Diseño De Interfaces Web
 
 ## Hermandad del Nazareno
@@ -28,11 +34,10 @@
 <br>
 
 <!----------------------------- CONCEPCIÓN -------------------------------->
-<div style="display: flex; flex-direction: row;">
-  <img src="./assets/Images/adorno-in.svg" width="40" />
-  <h1 style="margin-top: 25px">   CONCEPCIÓN     </h1>
-  <img src="./assets/Images/adorno.svg" width="40" />
-</div> 
+
+<img src="./assets/Images/adorno-in.svg" width="40" />  | 
+<span style="font-size: 30px;">   CONCEPCIÓN     </span> | 
+<img src="./assets/Images/adorno.svg" width="40" />
 <a name="id1"></a>
 
 Todo este proyecto comienza como una actividad para el grado superior DAW. Donde partimos del problema proporcionado por el profesor de crear una Página web basada en el color morado. Con la cual el mismo hizo una sugerencia de hacerla basada en una cofradia. Una vez que teníamos el problema planteado, comenzamos a trabajar en la solución.
@@ -66,31 +71,26 @@ Una vez que completamos el diseño del prototipo, utilizamos Adobe XD para gener
 Esta disponia de varias pantallas entre las cuales se encuentran las siguientes:
 
 - # Página Inicio
-<img src="https://github.com/JuanFrancisco21/HTML5-Hermandad-del-nazareno/blob/main/assets/Images/pinicio.png" style="width:400px;"/>
 <img src="./assets/Images/pinicio.png" style="width:400px;"/>
 
 <br>
 
 - # Página Cofradia
-<img src="https://github.com/JuanFrancisco21/HTML5-Hermandad-del-nazareno/blob/main/assets/Images/pcofradia.png" style="width:400px;"/>
 <img src="./assets/Images/pcogradia.png" style="width:400px;"/>
 
 <br>
 
 - # Página Afiliados
-<img src="https://github.com/JuanFrancisco21/HTML5-Hermandad-del-nazareno/blob/main/assets/Images/pafiliados.png" style="width:400px;"/>
 <img src="./assets/Images/pafiliados.png" style="width:400px;"/>
 
 <br>
 
 - # Página Blog
-<img src="https://github.com/JuanFrancisco21/HTML5-Hermandad-del-nazareno/blob/main/assets/Images/pblog.png" style="width:400px;"/>
 <img src="./assets/Images/pblog.png" style="width:400px;"/>
 
 <br>
 
 - # Página Inicio Sesion / Registro
-<img src="https://github.com/JuanFrancisco21/HTML5-Hermandad-del-nazareno/blob/main/assets/Images/plogin.png" style="width:400px;"/>
 <img src="./assets/Images/plogin.png" style="width:400px;"/>
 
 <br>
@@ -110,7 +110,6 @@ Después de experimentar con diferentes combinaciones, decidimos que la mejor op
 
 <br>
 
-<img src="https://github.com/JuanFrancisco21/HTML5-Hermandad-del-nazareno/blob/main/assets/Images/Paleta.png" style="width:1000px;"/>
 <img src="./assets/Images/Paleta.png" style="width:1000px;"/>
 
 <br>
@@ -167,8 +166,12 @@ Como es normal en una web siempre se puede mejorar o adaptar al estilo o gusto d
 - `No comercial` - No puede utilizar el material con fines comerciales.
 
 ## PROBLEMAS ENCONTRADOS:
+A la hora de crear un sitio web pueden surgir varios problemas:
 
-## LECTURA DE PANTALLA:
+- Diseñar un diseño fácil de usar y visualmente atractivo.
+- Garantizar que el sitio web sea compatible con dispositivos móviles y responda a las necesidades de los usuarios.
+- Adaptarse al prototipo para realizar un producto los más parecido y que no se desvarie del principal objetivo.
+- Crear contenidos atractivos y útiles para el sitio web.
 
 
 <br>
@@ -184,9 +187,17 @@ Como es normal en una web siempre se puede mejorar o adaptar al estilo o gusto d
 
 ## PRINCIPIOS PERSEGUIDOS:
 
-- Compartir - copiar y redistribuir el material en cualquier medio o formato
-- Adaptar - remezclar, transformar y construir sobre el material
-- El licenciante no puede revocar estas libertades siempre que se respeten los términos de la licencia.
+Hay varios principios de usabilidad que suelen utilizarse en la creación de un sitio web. Estos principios pueden ayudar a garantizar que el sitio web sea fácil de usar y navegar, y que proporcione una experiencia de usuario positiva. Los mas remarcables empleados son los siguientes:
+
+ 1. `Simplicidad`: Un sitio web debe diseñarse de forma sencilla e intuitiva, para que los usuarios puedan encontrar fácilmente lo que buscan. Esto puede conseguirse utilizando un lenguaje claro y conciso, un diseño limpio y despejado y una navegación fácil de usar.
+
+2. `Coherencia`: Un sitio web debe utilizar elementos de diseño coherentes, como fuentes, colores y diseño, en todo el sitio. Esto ayuda a crear un aspecto cohesivo y unificado, y facilita a los usuarios la navegación por el sitio.
+
+3. `Flexibilidad`: Un sitio web debe ser flexible y adaptable, de modo que pueda utilizarse fácilmente en diversos dispositivos, como ordenadores de sobremesa, portátiles, tabletas y teléfonos inteligentes. Esto puede lograrse mediante el uso de técnicas de diseño responsivo que ajustan automáticamente el diseño del sitio para adaptarse al tamaño y la forma del dispositivo del usuario.
+
+4. `Accesibilidad`: Un sitio web debe ser accesible para usuarios con discapacidad, como los ciegos o los que tienen baja visión, problemas auditivos o de movilidad. Esto puede lograrse mediante el uso de técnicas de diseño accesibles, como proporcionar alternativas de texto para imágenes y vídeos, utilizar texto descriptivo en los enlaces y emplear encabezados y una estructura adecuados para facilitar la navegación por el contenido.
+
+5. `Diseño centrado en el usuario`: Un sitio web debe diseñarse teniendo en cuenta las necesidades y preferencias del público destinatario. Esto puede conseguirse mediante la investigación y las pruebas con usuarios, para recabar opiniones de usuarios reales y asegurarse de que el sitio satisface sus necesidades y expectativas.
 
 <br>
 
