@@ -22,8 +22,9 @@
 4. [Futuras Mejoras](#id4)
 5. [Accesibilidad](#id5)
 6. [Usabilidad](#id6)
-7. [Licencia](#id7)
-8. [Autor](#id8)
+7. [Despliege](#id7)
+7. [Licencia](#id8)
+8. [Autor](#id9)
 
 <br>
 
@@ -209,13 +210,166 @@ Con un mapa de calor, los diseñadores y vendedores de sitios web pueden identif
 
 En resumen, los mapas de calor son herramientas útiles para comprender el comportamiento de los usuarios en los sitios web, y pueden utilizarse para mejorar el diseño y la experiencia de usuario de un sitio web. Por ello se han realizados dichos test a 5 individuos diferentes:
 
-### Individuo 1 (30 Años)
+Fotos que se adjuntan en la carpeta assets/Heatmap.
+
+<br>
+
+<!----------------------------- DESPLIEGE -------------------------------->
+<a name="id8" ></a>
+
+# DESPLIEGE
+
+Todo el código esta almacenado en un repositorio privado en [Github](https://github.com/JuanFrancisco21)
+, y desplegado en aws con dns [wordjagusan.duckdns.org](http://wordjagusan.duckdns.org) .
+
+## Gulp para el despliege:
+
+Gulp es una herramienta que puede ayudar a automatizar muchas de las tareas implicadas en el desarrollo web, como la optimización de imágenes, la compilación de CSS , JavaScript y la ejecución de pruebas. Usar gulp puede ahorrar mucho tiempo y hacer que el flujo de trabajo de desarrollo web sea más eficiente. 
+
+Además, gulp permite utilizar plugins para realizar tareas aún más complejas, como minificar tu código o manejar una maquina virtual alojada en Amazon Web Service. En general, el uso de gulp en el proyecto ayudar a mejorar la productividad y agilizar su flujo de trabajo.
+
+Por eso se disponen de 4 tareas en el archivo gulpfile:
+
+## Tareas:
+
+### COMPILAR SASS
+
+Para compilar Sass con gulp, primero necesitarás instalar gulp y el plugin gulp-sass en tu proyecto. Puedes hacerlo ejecutando los siguientes comandos:
+
+```
+npm install gulp gulp-sass --save-dev
+```
+
+Una vez que hayas instalado estas dependencias, puedes crear una tarea gulp para compilar tus archivos Sass añadiendo el siguiente código a tu gulpfile.js:
+
+```
+const gulp = require('gulp');
+const sass = require('gulp-sass');
+
+gulp.task('sass', function () {
+  return gulp.src('src/styles/*.scss')
+    .pipe(sass())
+    .pipe(gulp.dest('dist/css'));
+});
+```
+
+Esta tarea de gulp buscará todos los archivos con extensión .scss en el directorio src/styles, los compilará usando el plugin gulp-sass, y mostrará los archivos CSS resultantes en el directorio dist/css.
+
+Para ejecutar esta tarea, puede utilizar el siguiente comando:
+
+```
+gulp sass
+```
+
+<br>
+
+### COMPILAR SASSDOC
+
+En este ejemplo, la tarea sassdoc compilará la documentación Sassdoc para todos los archivos con extensión .scss en el directorio path/to/sass/files. Puede ajustar las rutas de entrada y salida según sea necesario para su proyecto.
+
+```
+const gulp = require('gulp');
+var exec = require('child_process').exec;
+
+function compiles_sass_doc(cb) {
+    exec('sassdoc ./assets/scss/partials  -d ./documentacion/sassdoc/', function (err, stdout, stderr) {
+        console.log(stdout);
+        console.log(stderr);
+        cb(err);
+    });
+}
+
+exports.sassdoc = compiles_sass_doc;
+
+```
+
+Para ejecutar esta tarea, puede utilizar el siguiente comando:
+
+```
+gulp sassdoc
+```
+
+### DESPLIEGE EN AWS
+Esta misma se divide en dos tareas las cuales se ejecturan en serie o en paralelo y estas tareas son dos:
+
+Antes de crear dichas tareas se necesita de un plugin para la conexion ssh a nuesta maquina aws, de la siguiente manera:
+
+```
+var gulp = require('gulp');
+var ssh = require('gulp-ssh');
+
+var config = {
+  host: 'hostname',
+  port: 22,
+  username: 'username',
+  password: 'password'
+}
+
+var gulpSSH = new ssh({
+  ignoreErrors: false,
+  sshConfig: config
+});
+```
+
+La primera de las dos tareas consiste en la descarga de la version mas actualizada del proyecto que esta almacenado en un repositorio de github:
+```
+/**
+ * Mover puntero a la carpesa asociada al repositorio y hacer un pull.
+ * @returns Devuelve por consola una respuesta de tarea completada o un error.
+ */
+function download_git_data() {
+    return gulpSSH
+    .exec([ 'git -C environment/Containers/wishlist/HTML5-Hermandad-del-nazareno/ pull ']);
+}
+```
+
+Y finalizando con la funcion la cual inicia el contenedor de docker con apache para mostranos la página web principal:
+```
+/**
+ * Inicia el contenedor que muestra la página web de la hermandad.
+ * @returns Devuelve por consola una respuesta de tarea completada o un error.
+ */
+function start_container(){
+    return gulpSSH
+    .exec(['docker start hermandad']);
+}
+```
+
+Para ejecutar esta tarea, puede utilizar cualquiera de los siguientes comandos:
+
+```
+/* Nombres de exportación de las funciones */
+exports.update_container=download_git_data;
+exports.start_container=start_container;
+
+exports.toDo = series(start_container, download_git_data);
+
+
+gulp update                ( Tarea1 )
+gulp start_container       ( Tarea2 )
+gulp toDo                  ( Tarea1 y Tarea2)
+```
+
+<br>
+
+
+<br>
+
+## Bajo los siguientes términos:
+
+- `Atribución` - Debe dar el crédito apropiado, proporcionar un enlace a la licencia e indicar si se hicieron cambios. Puede hacerlo de cualquier forma razonable, pero no de ninguna manera que sugiera que el licenciante lo respalda a usted o a su uso.
+
+- `No comercial` - No puede utilizar el material con fines comerciales.
+
+- `CompartirIgual` - Si usted remezcla, transforma o construye sobre el material, debe distribuir sus contribuciones bajo la misma licencia que el original.
+
+- `Sin restricciones adicionales` - No puede aplicar términos legales o medidas tecnológicas que restrinjan legalmente a otros de hacer cualquier cosa que la licencia permita.
 
 <br>
 
 
 <!----------------------------- LICENCIA -------------------------------->
-<a name="id7" ></a>
+<a name="id8" ></a>
 
 # LICENCIA
 
@@ -240,7 +394,7 @@ En resumen, los mapas de calor son herramientas útiles para comprender el compo
 <br>
 
 <!----------------------------- AUTOR -------------------------------->
-<a name="id8" ></a>
+<a name="id9" ></a>
 
 # AUTOR
 
